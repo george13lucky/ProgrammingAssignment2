@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ##  create a variable object to store inverse
   ## initialize the value of the matrix inverse variable  to NULL
   invers <- NULL
-  ##  delcare 'set' function set to store value that is to be cached in 1. 
+  ##  delcare 'set' function and set y to store matrix value that is to be cached .
   set <- function(y) {
     x <<- y
     invers <<- NULL ## reset inverse matrix variable to null.
