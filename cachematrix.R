@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## function to determine if inverse matrix object has been created and if so
+## function to determine if inverse matrix has been created and if so
 ## then use the cached matrix version function and reduce computation
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
